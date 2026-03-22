@@ -12,7 +12,7 @@
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    font-family: 'Fraunces', serif;
+    font-family: 'Fraunces';
     border-radius: 1vw;
     overflow: hidden;
 }
@@ -36,7 +36,7 @@
 
 .product-info{
     width: 50%;
-    height: auto;
+    height: 100%;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -48,28 +48,29 @@
 }
 
 .product-type-txt{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     text-align: left;
     letter-spacing: 0.5vw;
     /* font-size: 1.5rem; */
     font-size: 2vw;
-    margin-top: 3vw;
+    margin-top: 2vw;
 }
 
 .product-name-txt{
-    font-family: 'Fraunces', serif;
+    font-family: 'Fraunces';
+    font-weight: bold;
     text-align: left;
-    font-size: 8vw;
-    margin-top: 0.6vw;
+    font-size: 6vw;
+    margin-top: 0.3vw;
     margin-bottom: 0;
     line-height: 8vw;
-    padding-right: 5vw;
+    padding-right: 8vw;
 }
 
 .product-detail-txt{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     text-align: left;
-    font-size: 4vw;
+    font-size: 2vw;
     margin-top: 2vw;
     margin-bottom: 1vw;
     padding-right: 5vw;
@@ -85,7 +86,8 @@
 }
 
 .product-price-off-txt{
-    font-family: 'Fraunces', serif;
+    font-family: 'Fraunces';
+    font-weight: bold;
     text-align: left;
     font-size: 4vw;
     color: hsl(158, 36%, 37%);
@@ -93,7 +95,7 @@
 }
 
 .product-price-txt{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     text-align: left;
     font-size: 1.5vw;
     /* color: hsl(158, 36%, 37%); */
@@ -112,7 +114,7 @@
     border-radius: 1vw;
     border: none;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-size: 1.5vw;
     margin-bottom: 5vw;
     margin-top: 2vw;
